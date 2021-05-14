@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-// import HomePage from './HomePage';
+import Home from './Home';
 
 export default class App extends Component {
 	constructor(props) {
@@ -9,11 +9,8 @@ export default class App extends Component {
 
 	render() {
 		return (
-			// <div className="justify-content-center m-auto">
-			// 	<HomePage />
-			// </div>
 			<div className="justify-content-center m-auto text-center">
-				<h1>Test</h1>
+				<Home />
 			</div>
 		);
 	}
