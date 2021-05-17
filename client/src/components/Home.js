@@ -8,7 +8,6 @@ import {
 } from 'react-router-dom';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import Search from './Search';
-import Results from './Results';
 
 export default class Home extends Component {
 	constructor(props) {
@@ -46,7 +45,7 @@ export default class Home extends Component {
 							below to begin.
 						</h3>
 						<Link to="/search">
-							<Button variant="primary">Enter</Button>
+							<Button variant="primary">Begin Searching</Button>
 						</Link>
 					</Col>
 				</Row>
@@ -59,9 +58,14 @@ export default class Home extends Component {
 			<Container>
 				<Row>
 					<Col>
-						<button onClick={this.authenticateSpotify}>
-							authenticate
-						</button>
+						<h1>Welcome to the Advanced Spotify Search</h1>
+						<h3>
+							Please authenticate your spotify account by hitting
+							the button below.
+						</h3>
+						<Button onClick={this.authenticateSpotify}>
+							Authenticate
+						</Button>
 					</Col>
 				</Row>
 			</Container>
@@ -73,7 +77,6 @@ export default class Home extends Component {
 			<Router>
 				<Switch>
 					<Route path="/search" component={Search} />
-					<Route path="/results" component={Results} />
 					<Route
 						exact
 						path="/"
