@@ -39,7 +39,7 @@ export default class Home extends Component {
 			<Container>
 				<Row>
 					<Col>
-						<h1>Welcome to the Advanced Spotify Search</h1>
+						<h1>Welcome to the Spotify Playlist Nested Search</h1>
 						<h3>
 							Now that you are authenticated. Press the button
 							below to begin.
@@ -58,7 +58,7 @@ export default class Home extends Component {
 			<Container>
 				<Row>
 					<Col>
-						<h1>Welcome to the Advanced Spotify Search</h1>
+						<h1>Welcome to the Spotify Playlist Nested Search</h1>
 						<h3>
 							Please authenticate your spotify account by hitting
 							the button below.
